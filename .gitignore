@@ -1,0 +1,7 @@
+# Ignorar dependencias
+/node_modules
+
+# Ignorar artefactos de compilación/ejecutables
+/release
+/dist
+*.exe

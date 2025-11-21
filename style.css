@@ -1,0 +1,112 @@
+*{
+    font-size: 30px;
+    font-family: 'MiFuenteLocal';
+    color: rgb(255, 255, 255);
+    text-shadow: 4px  4px rgb(0, 0, 0);
+
+}
+
+@font-face {
+  font-family: 'MiFuenteLocal'; 
+  src: url('fonts/Monocraft.ttf') format('truetype'), 
+    }
+
+
+body{
+    text-align: center;
+    background-image: url('img/62265e9b28e2d1e438104ee084e6fb2c.gif');
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.portada img{
+    width: auto;
+     border: 2px solid black;
+    border-radius: 17px;
+}
+
+.pausa{
+    background-image: url('img/btnPlay.png');
+    margin-left: 25px;
+    margin-right: 20px;
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border: none;
+
+    transition:  0.3s;
+    
+}
+
+.pausa:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.pausa:active{
+    transform: scale(0.9);
+}
+
+
+.siguientebtn{
+    background-image: url('img/btnSig.png');
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border: none;
+
+    transition: 0.3s;
+
+}
+
+.siguientebtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.siguientebtn:active{
+    transform: scale(0.9);
+}
+
+.regresarbtn{
+     background-image: url('img/btnAtras.png');
+
+     background-color: transparent;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border: none;
+
+    transition: 0.3s;
+}
+
+.regresarbtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.regresarbtn:active{
+    transform: scale(0.9);
+}
+
+.controles{
+
+    background-color: rgba(255, 255, 255, 0.367);
+    border-radius: 20px;
+
+}
+.controlesdiv{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.agregar{
+    text-align: right;
+    height: 30%;
+}
+
