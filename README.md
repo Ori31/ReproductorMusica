@@ -10,6 +10,7 @@ Si quieres usar la app puedes:
 
 git clone https://github.com/Ori31/ReproductorMusica
 cd ReproductorMusica
+
 ```
 
 Despues para poder exportar la app como .exe o ejecutable debes ir a la bash del proyecto y instalar los modulos para exportar
@@ -18,7 +19,6 @@ Despues para poder exportar la app como .exe o ejecutable debes ir a la bash del
 
 #Para instalar los modulos para exportar
 npm install electron-builder --save-dev
-
 
 ```
 
